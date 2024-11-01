@@ -1,0 +1,10 @@
+@{
+    var message = TempData["LoginSuccess"];
+}
+
+@if (message != null)
+{
+    <div class="alert alert-success">
+        @message
+    </div>
+}
